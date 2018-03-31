@@ -35,7 +35,6 @@
 		if (isset($_POST['lien'])) {
 			$lien = "UPDATE `live` SET `lien`='".$_POST['link']."'";
 			$res_lien = $mysqli->query($lien);
-			$_POST['link'] = "";
 		}
 		?>
 	</div>
