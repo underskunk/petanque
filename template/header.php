@@ -8,6 +8,7 @@
 	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
 	<link href="../css/video.css" rel="stylesheet">
+	<link href="../css/popup.css" rel="stylesheet">
 	<link href="../css/menu-wrapper.css" rel="stylesheet">
 	<script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script>
 	<script>

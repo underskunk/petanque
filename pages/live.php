@@ -6,12 +6,12 @@
 		<div class="col-md-10 col-sm-12 col-xs-12">
 			<h1 class="center">Live</h1>
 			<div align="right">
-				<a href="accueil_admin.php"><button type="button" class="btn btn-success" aria-label="Left Align"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button></a>
+				<button type="button" id="live_admin" class="btn btn-success" aria-label="Left Align"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button>
 			</div>
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<div class="video-container">
-						<?php echo $init_live; ?> 
+						<?php echo $init_live; ?>
 					</div>
 				</div>
 			</div>
@@ -20,4 +20,25 @@
 		</div>
 	</div>
 </div>
+
+<div id="popup" class="modal">
+
+	<!-- Modal content -->
+	<div class="modal-content">
+		<span class="close">&times;</span>
+		<form method="post">
+			<label for="link">Entrez le code du live : </label>
+			<input type="text" name="link">
+			<input type="submit" name="lien">
+		</form>
+		<?php
+		if (isset($_POST['lien'])) {
+			$lien = "UPDATE `live` SET `lien`='".$_POST['link']."'";
+			$res_lien = $mysqli->query($lien);
+			$_POST['link'] = "";
+		}
+		?>
+	</div>
+</div>
+
 <?php include "../template/footer.php" ?>
