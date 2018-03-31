@@ -28,53 +28,33 @@
 		</div>
 	</div>
 </div>
-
-
-
 <div class="container-fluid">
-<?
-
-foreach ($lien_derniere_video as $value) {
-	if ($value != $lien_derniere_video[0]){
-
-?>
-
 	<div class="row">
 		<div class="col-md-1 col-sm-0 col-xs-0">
 		</div>
 		<div class="col-md-10 col-sm-12 col-xs-12">
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="video-container">
-					<?php echo $value; ?>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="video-container">
-					<?php echo $value; ?>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="video-container">
-					<?php echo $value; ?>
-				</div>
-			</div>
+			<?php
+			foreach ($lien_derniere_video as $value) {
+				if ($value != $lien_derniere_video[0]){
+					?>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="video-container">
+							<?php echo $value; ?>
+						</div>
+					</div>
+					<?php
+				}
+			}
+			?>
 		</div>
 		<div class="col-md-1 col-sm-0 col-xs-0">
 		</div>
 	</div>
-
-<?
-	}
-}
-
-?>
-
 </div>
 
 
 
 <div id="popup" class="modal">
-
 	<!-- Modal content -->
 	<div class="modal-content">
 		<span class="close">&times;</span>
