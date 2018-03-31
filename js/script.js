@@ -2,7 +2,7 @@
 var modal = document.getElementById('popup');
 
 // Get the button that opens the modal
-var btn = document.getElementById("live_admin");
+var btn = document.getElementById("admin");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];

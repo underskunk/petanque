@@ -22,4 +22,15 @@ $live = $res_lien->fetch_assoc();
 
 $init_live = $live['lien'];
 
+$lien_video = "SELECT * FROM `video` ORDER BY `id` DESC";
+
+$res_lien_video = $mysqli->query($lien_video);
+
+while ($row = $res_lien_video->fetch_assoc()) {
+	extract($row);
+	$lien_derniere_video[] = $lien;
+	$titre_derniere_video[] = $titre;
+	$desc_derniere_video[] = $description;
+}
+
 ?>

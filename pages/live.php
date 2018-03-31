@@ -6,7 +6,7 @@
 		<div class="col-md-10 col-sm-12 col-xs-12">
 			<h1 class="center">Live</h1>
 			<div align="right">
-				<button type="button" id="live_admin" class="btn btn-success" aria-label="Left Align"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button>
+				<button type="button" id="admin" class="btn btn-success" aria-label="Left Align"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button>
 			</div>
 			<div class="panel panel-default">
 				<div class="panel-body">
