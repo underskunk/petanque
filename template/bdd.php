@@ -14,4 +14,12 @@ $accueuil = $res_voir->fetch_assoc();
 
 $init_accueuil = $accueuil['main_page'];
 
+$lien = "SELECT `lien` FROM `live`";
+
+$res_lien = $mysqli->query($lien);
+
+$live = $res_lien->fetch_assoc();
+
+$init_live = $live['lien'];
+
 ?>
