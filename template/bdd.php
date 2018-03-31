@@ -1,4 +1,4 @@
-<?
+<?php
 $bdd_serveur='127.0.0.1';
 $bdd_login='root';
 $bdd_mot_de_passe=''; 
