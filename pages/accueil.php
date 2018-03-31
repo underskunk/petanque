@@ -6,6 +6,9 @@
 		</div>
 		<div class="col-md-10 col-sm-12 col-xs-12">
 			<h1 class="center">Accueil</h1>
+			<div align="right">
+				<a href="accueil_admin.php"><button type="button" class="btn btn-success" aria-label="Left Align"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button></a>
+			</div>
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<?php echo $init_accueuil; ?>

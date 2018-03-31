@@ -15,9 +15,9 @@
 	  selector: '#mytextarea'
 	});
 	</script>
-	<?php include "bdd.php" ?>
 </head>
 <body>
+	<?php include "bdd.php" ?>
 	<div id="wrapper">
 
 		<!-- Sidebar -->
