@@ -13,11 +13,11 @@
 <body>
 <h1>TinyMCE Quick Start Guide</h1>
   <form method="post">
-    <textarea id="mytextarea" name="coucou"><? echo $_POST['coucou'] ?></textarea>
+    <textarea id="mytextarea" name="coucou"><?php echo $init_accueuil; ?></textarea>
     <input type="submit" name="submit">
   </form>
 
-<?
+<?php
 if (isset($_POST['submit'])) {
 
   $ajout = "UPDATE `accueil` SET `main_page`='".$_POST['coucou']."'";
@@ -30,5 +30,5 @@ if (isset($_POST['submit'])) {
 
 ?>
 </body>
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 </html>
