@@ -1,5 +1,4 @@
 <?php include "../template/header.php" ?>
-<?php include "../template/bdd.php" ?>
 <body>
 <h1>TinyMCE Quick Start Guide</h1>
   <form method="post">
