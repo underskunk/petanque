@@ -26,11 +26,17 @@ $lien_video = "SELECT * FROM `video` ORDER BY `id` DESC";
 
 $res_lien_video = $mysqli->query($lien_video);
 
+if ($res_lien_video->num_rows > 0) {
 while ($row = $res_lien_video->fetch_assoc()) {
 	extract($row);
 	$lien_derniere_video[] = $lien;
 	$titre_derniere_video[] = $titre;
 	$desc_derniere_video[] = $description;
+}
+}else {
+	$lien_derniere_video[] = "<h1>Il n'y a pas de vidéo pour le moment</h1>";
+	$titre_derniere_video[] = "";
+	$desc_derniere_video[] = "";
 }
 
 ?>
