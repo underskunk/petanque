@@ -39,6 +39,9 @@
 				<li>
 					<a href="partenaire.php">Partenaires</a>
 				</li>
+				<li>
+					<a href="connection.php">Connection</a>
+				</li>
 			</ul>
 		</div>
 		<!-- /#sidebar-wrapper -->
