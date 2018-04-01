@@ -1,8 +1,8 @@
 <?php include "../template/header.php" ?>
 <div class="container-fluid">
 	<div class="row">
-
 		<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+			<h1 class="center">Contact</h1>
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<div class="col-md-1 col-sm-1 col-xs-12">
@@ -37,4 +37,4 @@
 		</div>
 	</div>
 </div>
-		<?php include "../template/footer.php" ?>
+<?php include "../template/footer.php" ?>
