@@ -5,10 +5,10 @@
 			<h1 class="center">Contact</h1>
 			<div class="panel panel-default">
 				<div class="panel-body">
-					<div class="col-md-1 col-sm-1 col-xs-12">
+					<div class="col-md-1 col-sm-3 col-xs-12">
 						<img class="img-responsive" src="../img/logo.png">
 					</div>
-					<div class="col-md-6 col-md-offset-5 col-sm-6 col-sm-offset-5 col-xs-12">
+					<div class="col-md-6 col-md-offset-5 col-sm-6 col-sm-offset-3 col-xs-12">
 						<div class="panel panel-default">
 							<div class="panel-body">
 								<p>Nom de société :</p>

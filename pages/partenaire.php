@@ -8,12 +8,13 @@
 			</div>
 			<div class="panel panel-default">
 				<div class="panel-body">
+
 					<div class="panel panel-default">
 						<div class="panel-body">
-							<div class="col-md-2 col-sm-2 col-xs-2">
+							<div class="col-md-2 col-sm-2 col-xs-12">
 								<img class="img-responsive" src="../img/logo.png">
 							</div>
-							<div class="col-md-10 col-sm-10 col-xs-10">
+							<div class="col-md-10 col-sm-10 col-xs-12">
 								<h3>
 									<p><b>Nom de la Société</b></p>
 									<p><b>Situation Géographique</b></p>
@@ -25,10 +26,10 @@
 					</div>
 					<div class="panel panel-default">
 						<div class="panel-body">
-							<div class="col-md-2 col-sm-2 col-xs-2">
+							<div class="col-md-2 col-sm-2 col-xs-12">
 								<img class="img-responsive" src="../img/logo.png">
 							</div>
-							<div class="col-md-10 col-sm-10 col-xs-10">
+							<div class="col-md-10 col-sm-10 col-xs-12">
 								<h3>
 									<p><b>Nom de la Société</b></p>
 									<p><b>Situation Géographique</b></p>
@@ -40,10 +41,10 @@
 					</div>
 					<div class="panel panel-default">
 						<div class="panel-body">
-							<div class="col-md-2 col-sm-2 col-xs-2">
+							<div class="col-md-2 col-sm-2 col-xs-12">
 								<img class="img-responsive" src="../img/logo.png">
 							</div>
-							<div class="col-md-10 col-sm-10 col-xs-10">
+							<div class="col-md-10 col-sm-10 col-xs-12">
 								<h3>
 									<p><b>Nom de la Société</b></p>
 									<p><b>Situation Géographique</b></p>
@@ -53,6 +54,7 @@
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>
