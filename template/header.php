@@ -17,7 +17,7 @@
 	});
 	</script>
 </head>
-<body>
+<body> 
 	<?php include "bdd.php" ?>
 	<div id="wrapper">
 
