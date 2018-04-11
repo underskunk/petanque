@@ -1,4 +1,4 @@
-<?php include "../template/header.php" ?>
+<?php include "../template/header.php"; ?>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
@@ -80,10 +80,13 @@
 			<input type="submit" name="partenaire">
 		</form>
 		<?php
-		/*if (isset($_POST['video'])) {
-			$lien = "INSERT INTO `video` (`lien`, `titre`, `description`) VALUES ('".$_POST['link_video']."', '".$_POST['titre_video']."', '".$_POST['desc_video']."')";
-			$res_lien = $mysqli->query($lien);
-		}*/
+		if (isset($_POST['partenaire'])) {
+			$cc = "INSERT INTO `partenaires` (`nom`, `logo`, `lieux`, `activité`, `site`) VALUES ('".$_POST['nom_partenaire']."', '".$_POST['logo_partenaire']."', '".$_POST['lieu_partenaire']."', '".$_POST['activité_partenaire']."', '".$_POST['site_partenaire']."')";
+
+			$res_lien = $mysqli->query($cc);
+
+		}
+
 		?>
 	</div>
 </div>
